@@ -1,0 +1,1 @@
+{"version":3,"sources":["../src/foo.ts","../src/index.ts"],"sourcesContent":["export const name = 'Kevin';\n","import { name } from './foo';\n\nconst greet = (name: string) => {\n  console.log('hi! ' + name);\n};\n\ngreet(name);\n"],"mappings":";;;AAAO,IAAM,OAAO;;;ACEpB,IAAM,QAAQ,CAACA,UAAiB;AAC9B,UAAQ,IAAI,SAASA,KAAI;AAC3B;AAEA,MAAM,IAAI;","names":["name"]}
