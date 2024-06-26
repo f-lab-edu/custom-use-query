@@ -11,7 +11,7 @@
   },
   "scripts": {
     "test": "jest",
-    "build:clean": "rm -rf .dist",
+    "build:clean": "rm -rf ./dist",
     "build": "tsup src/index.ts --format esm,cjs",
     "lint": "pnpm eslint",
     "lint:fix": "pnpm eslint . --fix"
